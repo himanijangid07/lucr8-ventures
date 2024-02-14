@@ -556,10 +556,11 @@ footer {
 
   .fifth button {
     margin: 20px 0px 0px 60px;
+    width: 267px;
   }
 
   .content .paragraph {
-    margin: 10px 0px 0px -228px;
+    margin: 15px 0px 0px -228px;
     width: 248px;
     padding: 10px;
   }
@@ -590,11 +591,11 @@ footer {
 
   .seventh .a {
     margin: 20px 0px 0px 15px;
-    width: 350px;
+    width: 340px;
   }
 
   .seventh .b {
-    width: 350px;
+    width: 340px;
     margin: 0px 0px 0px 15px;
   }
 
