@@ -10,7 +10,7 @@
 #first {
   margin: 175px 0px 20px 280px;
   font-size: 54px;
-  width: 450px;
+  width: 40vw;
   color: #484237;
   font-weight: 600;
   font-family: Gelasio;
@@ -27,7 +27,7 @@
   float: right;
   object-position: left top;
   margin: 0px 130px 0px 0px;
-  width: 300px;
+  width: 30vw;
   border-radius: 10px;
 }
 
@@ -47,7 +47,7 @@
   color: white;
   border: 1px solid #746558;
   border-radius: 10px;
-  width: 250px;
+  width: 17vw;
   cursor: pointer;
 }
 
@@ -58,14 +58,14 @@
   color: #746558;
   border: 2px solid #746558;
   border-radius: 10px;
-  width: 160px;
+  width: 11vw;
   cursor: pointer;
 }
 
 #firsts {
   margin: 175px 0px 20px 620px;
   font-size: 54px;
-  width: 450px;
+  width: 31vw;
   color: #484237;
   font-weight: 600;
   font-family: Gelasio;
@@ -87,25 +87,26 @@
 }
 
 .second img {
-  width: 280px;
+  width: 20vw;
   float: left;
   margin: -160px 0px 0px 240px;
   border-radius: 10px;
-  height: 500px;
+  height: 75vh;
 }
 
 #firstt {
-  margin: 250px 0px 20px 280px;
+  margin: 200px 0px 50px 0px;
   font-size: 54px;
   color: #484237;
   font-weight: 600;
   font-family: Gelasio;
+  text-align: center;
 }
 
 .third ul {
   display: flex;
   list-style-type: none;
-  margin-left: 280px;
+  margin-left: 180px;
   gap: 110px;
 }
 
@@ -119,7 +120,7 @@
   font-size: 18px;
   font-weight: 400;
   color: #746558;
-  width: 410px;
+  width: 30vw;
   margin: 20px 0px 0px 0px;
 }
 
@@ -129,7 +130,7 @@
 }
 
 #firstf {
-  margin: 150px 0px 20px 280px;
+  margin: 150px 0px 20px 232px;
   font-size: 54px;
   color: #484237;
   font-weight: 600;
@@ -142,8 +143,8 @@
 }
 
 .fourth .box1 {
-  width: 270px;
-  margin-left: 285px;
+  width: 20vw;
+  margin-left: 200px;
   gap: 140px;
   background-color: #f2dbef;
   padding: 15px;
@@ -166,7 +167,7 @@
 }
 
 .fourth .box2 {
-  width: 270px;
+  width: 20vw;
   margin-left: 10px;
   gap: 140px;
   background-color: #f2dbef;
@@ -191,24 +192,25 @@
 
 .fourth img {
   float: right;
-  width: 290px;
+  width: 20vw;
   margin: -120px 70px 0px 0px;
   border-radius: 10px;
 }
 
 #firstfifth {
-  margin: 250px 0px 20px 280px;
+  margin: 250px 0px 20px 0px;
   font-size: 54px;
   color: #484237;
   font-weight: 600;
   font-family: Gelasio;
+  text-align: center;
 }
 
-.fifth button {
+/* .fifth button {
   font-size: 18px;
   font-weight: 400;
   color: #746558;
-  margin-left: 280px;
+  margin-left: 270px;
   margin-top: 20px;
   border: none;
   cursor: pointer;
@@ -221,7 +223,7 @@
   color: #484237;
   cursor: pointer;
   padding: 10px;
-  width: 65%;
+  width: 60vw;
   border: none;
   text-align: left;
   outline: none;
@@ -236,20 +238,21 @@
   padding: 0px 18px;
   display: none;
   color: #746558;
-  width: 65%;
   margin: -15px 0px 50px 270px;
 }
 
 .content .paragraph {
   background-color: rgb(242, 219, 239, 0.7);
   padding: 10px 10px;
-  margin: 5px 8px 50px -8px;
-  height: 70px;
-  width: 860px;
+  margin: 5px 8px 50px -18px;
+  height: 5vw;
+  width: 60vw;
+  box-shadow: 0px 8px 16px 0px rgba(116, 101, 88, 0.2);
+  text-align: left;
 }
 
 .collapsible:after {
-  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  content: "\02795"; 
   font-size: 13px;
   color: white;
   float: right;
@@ -258,7 +261,56 @@
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2796"; 
+} */
+
+.dropdown1 {
+  background-color: #f9f6f0;
+}
+
+details {
+  background-color: #f9f6f0;
+  color: #484237;
+  font-size: 18px;
+  text-align: center;
+}
+
+summary {
+  padding: 0.5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  transition: height 1s ease;
+  background-color: #f2dbef;
+  width: 60vw;
+  font-size: 18px;
+  margin-left: 240px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  content: "\002B";
+}
+
+details[open] summary {
+  border-bottom: 1px solid #f9f6f0;
+  margin-bottom: 0.5em;
+}
+
+details[open] summary:after {
+  content: "\00D7";
+}
+
+details[open] div {
+  padding: 0.5em 1em;
+  background-color: #f2dbef;
+  width: 59vw;
+  margin-left: 250px;
+  height: 4vw;
+  margin-top: -8px;
 }
 
 #firstsixth {
@@ -276,7 +328,7 @@
 }
 
 .sixth ul li {
-  margin-left: 425px;
+  margin-left: 375px;
   font-size: 23px;
   font-weight: 600;
   color: #484237;
@@ -288,7 +340,7 @@
   color: #746558;
   font-size: 18px;
   font-weight: 400;
-  width: 470px;
+  width: 34vw;
   margin: -20px 0px 40px 0px;
   line-height: 30px;
 }
@@ -296,27 +348,25 @@
 .sixth ul li .box1 {
   margin: 0px 0px 0px -60px;
   font-size: 23px;
-  width: 35px;
 }
 
 .sixth ul li .box2 {
   margin: 0px 0px 0px -60px;
   font-size: 23px;
-  width: 35px;
 }
 
 .sixth ul li .box3 {
   margin: 0px 0px 0px -60px;
   font-size: 23px;
-  width: 35px;
 }
 
 #firstseventh {
-  margin: 150px 0px 20px 280px;
+  margin: 150px 0px 20px 0px;
   font-size: 54px;
   color: #484237;
   font-weight: 600;
   font-family: Gelasio;
+  text-align: center;
 }
 
 .seventh .container1 {
@@ -326,8 +376,8 @@
 }
 
 .seventh .a {
-  width: 620px;
-  margin-left: 285px;
+  width: 28vw;
+  margin-left: 270px;
   background-color: #f2dbef;
   padding: 15px;
   border-radius: 10px;
@@ -361,7 +411,7 @@
 }
 
 .seventh .b {
-  width: 620px;
+  width: 28vw;
   margin-left: 285px;
   background-color: #f2dbef;
   padding: 15px;
@@ -397,22 +447,23 @@
 }
 
 #firsteighth {
-  margin: 150px 0px 20px 280px;
+  margin: 100px 0px 20px 0px;
   font-size: 45px;
   color: #484237;
   font-weight: 600;
   font-family: Gelasio;
+  text-align: center;
 }
 
-.dropbtn {
+/* .dropbtn {
   background-color: #f2dbef;
   color: #746558;
   padding: 16px;
   font-size: 18px;
   border: none;
   cursor: pointer;
-  width: 900px;
-  margin: 0px 0px 20px 290px;
+  width: 66vw;
+  margin: 0px 0px 20px 250px;
   text-align: left;
 }
 
@@ -429,10 +480,10 @@
   display: none;
   position: relative;
   background-color: #f1f1f1;
-  width: 860px;
+  width: 63vw;
   box-shadow: 0px 8px 16px 0px rgba(116, 101, 88, 0.2);
   z-index: 1;
-  margin: 0px 20px 0px 330px;
+  margin: 0px 20px 0px 290px;
   color: #746558;
 }
 
@@ -445,7 +496,7 @@
 }
 
 .dropbtn:after {
-    content: "\02795"; /* Unicode character for "plus" sign (+) */
+    content: "\02795"; 
     font-size: 13px;
     color: white;
     float: right;
@@ -454,7 +505,63 @@
 }
   
 .dropbtn.active::after {
-    content: '\2212'; /* Unicode for minus sign */
+    content: '\2212'; 
+} */
+
+.sec {
+  background-color: #f9f6f0;
+  color: #484237;
+  font-size: 18px;
+  text-align: left;
+}
+
+.sec1 {
+  padding: 0.5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  transition: height 1s ease;
+  background-color: #f2dbef;
+}
+
+.sec1 ::-webkit-details-marker {
+  display: none;
+}
+
+.sec1 :after {
+  content: "\002B";
+}
+
+.sec [open] .sec1 {
+  border-bottom: 1px solid #f2dbef;
+  margin-bottom: 0.5em;
+}
+
+.sec [open] .sec1:after {
+  content: "\00D7";
+}
+
+.sec [open] ul li {
+  padding: 0.5em 1em;
+  width: 59vw;
+  margin-left: 250px;
+  height: 6vw;
+  margin-top: -8px;
+}
+
+.dropdown ul {
+  background-color: #f2dbef;
+  width: 60vw;
+  margin-left: 250px;
+  margin-top: -8px;
+  height: 8vw;
+  padding: 10px;
+}
+
+.dropdown ul li {
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: #f2dbef;
 }
 
 footer {
@@ -466,7 +573,7 @@ footer {
   .first img {
     margin: 40px 55px 20px 0px;
   }
-  
+
   #first {
     margin: 0px 0px 60px 35px;
     width: 50px;
@@ -528,7 +635,7 @@ footer {
     width: 345px;
   }
 
-  #firstf{
+  #firstf {
     margin: 10px 0px 0px 55px;
     width: 330px;
   }
@@ -542,11 +649,11 @@ footer {
   }
 
   .fourth .box1 {
-    margin: 500px 20px 10px 45px
+    margin: 500px 20px 10px 45px;
   }
 
   .fourth .box2 {
-    margin: 20px 20px 10px 45px
+    margin: 20px 20px 10px 45px;
   }
 
   #firstfifth {
@@ -561,7 +668,7 @@ footer {
 
   .content .paragraph {
     margin: 15px 0px 0px -228px;
-    width: 248px;
+    width: 247px;
     padding: 10px;
   }
 
