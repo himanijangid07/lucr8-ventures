@@ -327,37 +327,21 @@ details[open] div {
   border-radius: 10px;
 }
 
-.sixth ul li {
+.sixth ol li {
   margin-left: 375px;
   font-size: 23px;
   font-weight: 600;
   color: #484237;
   margin-top: 15px;
-  list-style-type: none;
 }
 
-.sixth ul li p {
+.sixth ol li p {
   color: #746558;
   font-size: 18px;
   font-weight: 400;
   width: 34vw;
   margin: -20px 0px 40px 0px;
   line-height: 30px;
-}
-
-.sixth ul li .box1 {
-  margin: 0px 0px 0px -60px;
-  font-size: 23px;
-}
-
-.sixth ul li .box2 {
-  margin: 0px 0px 0px -60px;
-  font-size: 23px;
-}
-
-.sixth ul li .box3 {
-  margin: 0px 0px 0px -60px;
-  font-size: 23px;
 }
 
 #firstseventh {
@@ -569,85 +553,99 @@ footer {
   margin: 20px 0px 10px 0px;
 }
 
-@media only screen and (320px <= width <= 480px) {
+@media only screen and (max-width: 320px) {
   .first img {
-    margin: 60px -123px 50px 96px;
-    width: 130vw;
+    margin: 60px 65px 50px 96px;
+    width: 70vw;
   }
 
   #first {
-    margin: 0px 0px 60px 35px;
-    width: 20vw;
-  }
-
-  .first p {
-    width: 121vw;
-    margin: 0px 0px 20px 40px;
+    margin: 0px 0px 20px 30px;
+    width: 50vw;
     font-size: 30px;
   }
 
+  .first p {
+    width: 73vw;
+    margin: 0px 0px 20px 30px;
+    font-size: 15px;
+  }
+
   .first .btn1 {
-    margin: 30px 0px 30px 70px;
-    font-size: 22px;
-    width: 100vw;
+    margin: 30px 0px 30px 30px;
+    font-size: 15px;
+    width: 68vw;
   }
 
   .first .btn2 {
-    margin: 0px 0px 30px 70px;
-    font-size: 22px;
-    width: 100vw;
+    margin: 0px 0px 30px 30px;
+    font-size: 15px;
+    width: 68vw;
   }
 
   #firsts {
-    margin: 50px 0px 30px 50px;
-    width: 100vw; 
+    margin: 50px 0px 30px 30px;
+    width: 75vw;
+    font-size: 30px;
   }
 
   .second img {
-    margin: 20px 0px 20px 60px;
-    width: 100vw;
+    margin: 20px 0px 20px 30px;
+    width: 70vw;
   }
 
   .second ol {
-    margin: 600px 0px 0px -590px;
-    width: 330vw;
+    margin: 420px 0px 0px -610px;
+    width: 60vw;
   }
 
   .second ol li {
-    font-size: 25px;
+    font-size: 16px;
+    width: 75vw;
   }
 
   .second ol li p {
-    font-size: 20px;
+    font-size: 14px;
+    width: 70vw;
   }
 
   #firstt {
-    margin: 60px 0px 0px 60px;
-    text-align: center;
-    width: 111vw;
+    margin: 60px 0px 0px 30px;
+    /* text-align: center; */
+    width: 70vw;
+    font-size: 30px;
   }
 
   .third ul {
-    margin: 20px 0px 0px 60px;
+    margin: 20px 0px 0px 30px;
     display: grid;
+    gap: 25px;
+  }
+
+  .third ul li {
+    font-size: 18px;
   }
 
   .third ul li p {
-    width: 100vw;
+    width: 75vw;
+    font-size: 15px;
+    margin-top: 10px;
   }
 
   .third ul li img {
-    width: 100vw;
+    width: 70vw;
   }
 
   #firstf {
-    margin: 30px 0px 0px 100px;
-    width: 90vw;
+    margin: 30px 0px 0px 30px;
+    width: 70vw;
+    font-size: 30px;
+    text-align: center;
   }
 
   .fourth img {
-    margin: 25px -80px 40px 0px;
-    width: 100vw;
+    margin: 25px 65px 40px 30px;
+    width: 70vw;
   }
 
   .fourth .container {
@@ -655,53 +653,75 @@ footer {
   }
 
   .fourth .box1 {
-    margin: 540px 20px 10px 80px;
-    width: 92vw;
+    margin: 390px 20px 10px 30px;
+    width: 62vw;
   }
 
   .fourth .box2 {
-    margin: 20px 20px 10px 80px;
-    width: 92vw;
+    margin: 20px 20px 10px 30px;
+    width: 62vw;
+  }
+
+  .fourth .container h3 {
+    font-size: 16px;
+    width: 63vw;
+  }
+
+  .fourth .container p {
+    font-size: 14px;
+    width: 60vw;
   }
 
   #firstfifth {
-    margin: 60px 0px 0px 80px;
-    width: 90vw;
+    margin: 60px 0px 0px 30px;
+    width: 70vw;
+    font-size: 30px;
   }
 
   .fifth summary {
-    margin: 20px 0px 0px 70px;
-    width: 90vw;
+    margin: 20px 0px 0px 25px;
+    width: 62vw;
+    font-size: 15px;
   }
 
   .fifth details[open] div {
-    margin: -5px 0px 0px 69px;
-    width: 92vw;
-    height: 10vh;
+    margin: -5px 0px 0px 31px;
+    width: 62vw;
+    height: 13vh;
+    font-size: 14px;
   }
 
   #firstsixth {
-    margin: 30px 0px 0px 80px;
-    width: 100vw;
+    margin: 30px 0px 0px 30px;
+    width: 71vw;
+    font-size: 30px;
   }
 
   .sixth img {
-    margin: 20px -20px 50px 40px;
-    width: 70vw;
+    margin: 20px 80px 50px 30px;
+    width: 60vw;
+    height: 55vh;
   }
 
-  .sixth ul li {
-    margin: 40px 0px 0px 120px;
-    width: 90vw;
+  .sixth ol li {
+    margin: 40px 0px 0px 50px;
+    font-size: 16px;
   }
 
-  .sixth ul li p {
-    width: 90vw;
+  .sixth ol li h4 {
+    margin: 0px 0px 0px 25px;
+  }
+
+  .sixth ol li p {
+    width: 65vw;
+    font-size: 14px;
+    margin: 10px 0px 0px 25px;
   }
 
   #firstseventh {
-    margin: 50px 0px 0px 50px;
-    width: 110vw;
+    margin: 50px 0px 0px 30px;
+    width: 70vw;
+    font-size: 30px;
   }
 
   .seventh .container1 {
@@ -710,41 +730,67 @@ footer {
 
   .seventh .a {
     margin: 20px 0px 0px 25px;
-    width: 120vw;
+    width: 65vw;
+  }
+
+  .seventh .a h1 {
+    font-size: 30px;
+  }
+
+  .seventh .a h3 {
+    font-size: 20px;
+  }
+
+  .seventh .a p {
+    font-size: 13px;
   }
 
   .seventh .b {
-    width: 120vw;
+    width: 65vw;
     margin: 0px 0px 0px 25px;
   }
 
+  .seventh .b h1 {
+    font-size: 30px;
+  }
+
+  .seventh .b h3 {
+    font-size: 20px;
+  }
+
+  .seventh .b p {
+    font-size: 13px;
+  }
+
   #firsteighth {
-    margin: 50px 0px 35px 100px;
+    margin: 50px 0px 35px 15px;
     width: 80vw;
+    font-size: 30px;
   }
 
   .dropdown details {
-    margin: 0px 0px 0px -120px;
-    width: 100vw;
+    width: 50vw;
+    font-size: 13px;
   }
 
   .dropdown summary {
-    width: 80vw;
-    margin: 0px 0px 0px 205px;
+    width: 58vw;
+    margin: 0px 0px 0px 30px;
+    font-size: 15px;
   }
 
   .dropdown ul {
-    margin: -5px 0px 20px 204px;
-    width: 87vw;
-    height: 25vh;
+    margin: -5px 0px 20px 38px;
+    width: 60vw;
+    height: 20vh;
   }
 
   .dropdown ul li {
     margin: 10px 0px 0px 20px;
-    width: 83vw;
+    width: 56vw;
   }
   
   footer {
-    margin: 50px 0px 0px 140px;
+    margin: 50px 35px 0px 0px;
   }
 }
